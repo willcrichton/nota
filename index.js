@@ -18817,7 +18817,7 @@
               if (didWarnAboutUnmockedScheduler === false && Scheduler.unstable_flushAllWithoutAsserting === void 0) {
                 if (fiber.mode & BlockingMode || fiber.mode & ConcurrentMode) {
                   didWarnAboutUnmockedScheduler = true;
-                  error(`In Concurrent or Sync modes, the "scheduler" module needs to be mocked to guarantee consistent behaviour across tests and browsers. For example, with jest: 
+                  error(`In Concurrent or Sync modes, the "scheduler" module needs to be mocked to guarantee consistent behaviour across tests and browsers. For example, with jest:
 jest.mock('scheduler', () => require('scheduler/unstable_mock'));
 
 For more info, visit https://reactjs.org/link/mock-scheduler`);
@@ -73275,7 +73275,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     }
     .gutter.bottom {
       margin-top: 30px;
-    }  
+    }
     `), overlay, /* @__PURE__ */ import_react11.default.createElement("div", {
       className: "gutter top"
     }, labels.filter(({ pos }) => pos == "top").map(({ label }) => label)), /* @__PURE__ */ import_react11.default.createElement(Aa, {
@@ -75091,7 +75091,7 @@ assert!(*value.lock().unwrap() == 1);`
     return /* @__PURE__ */ import_react12.default.createElement(import_react12.default.Fragment, null, /* @__PURE__ */ import_react12.default.createElement("style", null, `
     .CodeMirror { font-size: 16px; font-family: Inconsolata; }
     .CodeMirror-gutters { background: none; border: none; padding-right: 5px; }
-    .CodeMirror-linenumber { font-size: 12px; position: relative; top: 2px; }      
+    .CodeMirror-linenumber { font-size: 12px; position: relative; top: 2px; }
     `), /* @__PURE__ */ import_react12.default.createElement(import_react_codemirror.default, {
       value: code,
       ref,
@@ -75364,9 +75364,6 @@ assert!(*value.lock().unwrap() == 1);`
                 children: "program slicing"
               }), ". The white bubbles in the right column contain commentary about the usage of Nota. You can compare against the original LaTeX/PDF version ", (0, import_jsx_runtime2.jsx)(AEx, {
                 href: "slicing_paper.pdf",
-                children: "here"
-              }), ", and read the Nota version in a standalone page ", (0, import_jsx_runtime2.jsx)(AEx, {
-                href: "slicing",
                 children: "here"
               }), ". If you want to just skim the uses of Nota features, you don't have to read all the text -- just skip to the next white discussion bubble."]
             }), (0, import_jsx_runtime2.jsx)(_components.p, {
