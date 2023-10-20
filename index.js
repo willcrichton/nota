@@ -75663,7 +75663,9 @@ assert!(*value.lock().unwrap() == 1);`
               children: "R Markdown"
             }), " have grown in popularity especially in the non-computer sciences. The goal of a notebook is to put the explanation of an object as close as possible to the code that generated it. In fields like psychology, this usually means analyzing datasets and generating graphs. Perhaps the future for PL is literate Agda/Lean/Coq programs."]
           }), "\n", (0, import_jsx_runtime2.jsxs)(_components.li, {
-            children: ["*Enhanced PDFs: creating a new browser-based medium will inevitably require reinventing a number of wheels that already exist for LaTeX/PDFs: IDEs (like ", (0, import_jsx_runtime2.jsx)(AEx, {
+            children: [(0, import_jsx_runtime2.jsx)(_components.em, {
+              children: "Enhanced PDFs: "
+            }), "creating a new browser-based medium will inevitably require reinventing a number of wheels that already exist for LaTeX/PDFs: IDEs (like ", (0, import_jsx_runtime2.jsx)(AEx, {
               href: "https://www.overleaf.com/",
               children: "Overleaf"
             }), "), documentation, accessibility features, and so on. A far simpler approach would be to make LaTeX and PDFs as powerful as possible, like ", (0, import_jsx_runtime2.jsx)(Ref, {
